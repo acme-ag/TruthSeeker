@@ -121,3 +121,5 @@ The research team, in their paper on this dataset, emphasizes that their work wa
 | RandomForestClassifier  | 0.7480         | 0.6801        |
 | XGBClassifier           | 0.8360         | **0.7336**        |
 | Sequential              | 0.7382         | 0.7058        |
+
+For each model, many parameters were tested, including using GridSearch and RandomSearch (these steps were omitted). The results in the table are the best results obtained, and the parameters listed for the models are those that produced these results.
