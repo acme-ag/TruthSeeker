@@ -1,11 +1,24 @@
+[![truthSeeket](https://i.postimg.cc/wB3n43J9/temp-Imagec2-Nze9.avif)](https://postimg.cc/cKyDrxXz)
 # TruthSeeker
 Traditional ML approach to fake/real news classification based on TruthSeeker dataset
+
+## Contents:
+1. Brief overview
+2. Features explanarion
+3. 1 - Data perprocessing
+4. 2 - Explaratory Data Analysis
+5. 3 - Modelling
+6. Inferences and Summary
+
+## Overview
 
 The data originates from the Canadian Institute of Cybersecurity [University of New Brunswick](https://www.unb.ca/cic/about/index.html) under the title "CIC Truth Seeker Dataset 2023". The dataset encompasses over 100,000 tweets related to 700 real and 700 fake news stories (statements) spanning from 2009 to 2022. These texts are categorized into some featires like text features, lexical and meta-data features, making it one of the largest ground truth datasets ever created for detecting fake news on Twitter. 
 
 The dataset includes two .csv files (**Features_For_Traditional_ML_Techniques.csv** -- for "traditional" ML, that's the file we'll be using; and **Truth_Seeker_Model_Dataset.csv** for NLP) and .xls file with timestamps. We're gonna work on traditional ML techniques so we'll use that dataset that contains 134,199 rows and 64 columns. Our target here is BinaryNumTarget (or majority_target in boolean representation) with values 1 (true) or 0 (fake). And we want, based on the features in the dataset, that are basically the codified tweet texts, make best possible models that would categorize the statements (news headlines) if they are true or fake.
 
-### Here's the brief features description (with some of my explanations):
+## Features explanation
+
+Here's the brief features description (with some of my explanations):
 
 Some of the features are self-explanatory, some of them need to be decribed.
 
@@ -78,3 +91,20 @@ Quantifiers: some, many, few, several, all, every
 62.	WORK_OF_ART_percent - Percent of text including spaCy WOA tags. WORK_OF_ART tags are to identify mentions of creative works: titles of books, songs, movies, paintings, and other artistic creations.
 63.	QUANTITY_percent - Percent of text including spaCy QUANTITY tags. measurements, amounts, distances, weights, and other numerical expressions that indicate a quantity.
 64.	LANGUAGE_percent - Percent of text including spaCy LANGUAGE tag. Mentiojns of languages like English, Spanish, French…
+
+## Work stages
+
+Since the project is rather long-lasting I divided it into 3 parts: preprocessing, EDA and modelling itself.
+
+### 1. Data perprocessing 
+Here I explore dataset for validity, do some  initial transformations. 
+
+### 2. Explaratory Data Analysis
+
+
+### 3. Modelling
+
+## Summary
+
+
+
