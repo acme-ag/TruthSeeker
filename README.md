@@ -97,14 +97,19 @@ Quantifiers: some, many, few, several, all, every
 Since the project is rather long-lasting I divided it into 3 parts: preprocessing, EDA and modelling itself.
 
 ### 1. Data perprocessing 
-Here I explore dataset for validity, do some  initial transformations. 
+
+In this section, I check the dataset for data validity and perform some initial transformations. For example, several variables were in int64 and float64 formats, which was somewhat excessive. Consequently, I managed to reduce the dataset size by almost three times in megabytes. This is not as important when working with small datasets like this one, but it can be crucial for larger volumes. Next, a preliminary analysis of data consistency revealed discrepancies with the specified parameters. That is, you look at the text, compare it with its parameters in the variables, and notice inconsistencies. To address this, I recalculated almost all the parameters. Spoiler: this only slightly improved the final results. However, it was interesting and useful practice.
 
 ### 2. Explaratory Data Analysis
 
+In the Data Analysis section, I examine the data for distribution, right or left-skewed data, deviations, and correlations. In this section, I also perform feature engineering and – although it’s not as significant for the actual analysis, it was interesting – I examine the distribution of the vocabulary across different slices. What words are used in discussions of fake news and real news, and how the vocabulary is distributed across topics.
 
 ### 3. Modelling
 
-## Summary
+In the Modelling section, I create synthetic new variables, deal with outliers, and conduct PCA analysis to determine the number of variables sufficient for creating robust models. Ultimately, I create several models: logistic regression, which serves as our baseline model, Support Vector Machines with two kernels: RBF and Polynomial, Deep Neural Networks, Random Forest, XGBoost, and compare the results. Since the target class is balanced, the main metric is the accuracy score.
 
+## In conclusion
+
+The research team, in their paper on this dataset, emphasizes that their work was focused on NLP models like BERT and others, and the dataset for traditional machine learning techniques was created more as a complement. NLP techniques, when applied to this dataset, show better results for determining fake and real news, as confirmed by OpenAI researchers who applied their algorithms to this dataset. However, I found it interesting to apply traditional techniques. I believe this is the best result that can be achieved using them with this dataset.
 
 
