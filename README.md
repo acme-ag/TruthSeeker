@@ -113,3 +113,11 @@ In the Modelling section, I create synthetic new variables, deal with outliers, 
 The research team, in their paper on this dataset, emphasizes that their work was focused on NLP models like BERT and others, and the dataset for traditional machine learning techniques was created more as a complement. NLP techniques, when applied to this dataset, show better results for determining fake and real news, as confirmed by OpenAI researchers who applied their algorithms to this dataset. However, I found it interesting to apply traditional techniques. I believe this is the best result that can be achieved using them with this dataset.
 
 
+| Model                   | Train accuracy | Test accuracy |
+|-------------------------|----------------|---------------|
+| LogisticRegression      | 0.6552         | 0.6491        |
+| SVC (RBF)               | 0.7980         | 0.7179        |
+| SVC (Poly)              | 0.7700         | 0.6974        |
+| RandomForestClassifier  | 0.7480         | 0.6801        |
+| XGBClassifier           | 0.8360         | **0.7336**        |
+| Sequential              | 0.7382         | 0.7058        |
