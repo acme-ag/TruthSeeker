@@ -5,9 +5,9 @@ Traditional ML approach to fake/real news classification based on TruthSeeker da
 ## Contents:
 1. Brief overview
 2. Features explanarion
-3. 1 - Data perprocessing
-4. 2 - Explaratory Data Analysis
-5. 3 - Modelling
+3. 1 - [Data perprocessing](https://github.com/acme-ag/TruthSeeker/blob/main/1_preprocessing.ipynb)
+4. 2 - [Explaratory Data Analysis](https://github.com/acme-ag/TruthSeeker/blob/main/2_eda_fe.ipynb)
+5. 3 - [Modelling](https://github.com/acme-ag/TruthSeeker/blob/main/3_pca_modelling.ipynb)
 6. Inferences and Summary
 
 ## Overview
