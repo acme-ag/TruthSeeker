@@ -1,7 +1,7 @@
 [![truthSeeket](https://i.postimg.cc/wB3n43J9/temp-Imagec2-Nze9.avif)](https://postimg.cc/cKyDrxXz)
 # TruthSeeker
 Traditional ML approach to fake/real news classification based on TruthSeeker dataset
-Collaborators: Vaishali Sharma, Niki Sanieenia Mogha, [Matteen Atiqui](https://github.com/matiqi), [me](https://github.com/acme-ag)
+Collaborators: Vaishali Sharma, Niki Sanieenia Mogha, Matteen Atiqi
 
 ## Contents:
 1. Brief overview
